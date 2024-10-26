@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noobboyhicool | Professional Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #d0d0d0, #a0a0a0);
+            color: #333;
+            scroll-behavior: smooth;
+        }
+        header {
+            text-align: center;
+            padding: 60px 20px; /* Reduced padding for smaller header */
+            background-color: #34495e;
+            color: #ecf0f1;
+            border-bottom: 3px solid #2980b9;
+            position: relative;
+        }
+        h1 {
+            margin: 0;
+            font-size: 3.5em;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 20px;
+            font-size: 2.5em;
+            transition: color 0.3s;
+        }
+        h2:hover {
+            color: #e74c3c;
+        }
+        nav {
+            margin-top: 20px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: inline-block;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 30px;
+        }
+        nav ul li a {
+            color: #ecf0f1;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.3em;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #e74c3c;
+        }
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+        .container:hover {
+            transform: scale(1.02);
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background: rgba(255, 255, 255, 0.9); /* Added a light background for sections */
+            transition: background 0.3s;
+        }
+        .section:hover {
+            background: #f9f9f9;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #34495e;
+            color: #ecf0f1;
+        }
+        footer a {
+            color: #e74c3c;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        footer a:hover {
+            color: #ecf0f1;
+        }
+        /* Responsive Design */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2.5em;
+            }
+            h2 {
+                font-size: 2em;
+            }
+            nav ul li {
+                margin: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Noobboyhicool</h1>
+        <p style="font-size: 1.5em; font-weight: 300;">Full Stack Developer | 3D Modeler | Creative Thinker</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <p>I am a dedicated developer with a passion for creating innovative solutions. My focus lies in building seamless user experiences and efficient applications. With a strong foundation in both front-end and back-end development, I thrive on tackling complex challenges and delivering exceptional results.</p>
+    </section>
+
+    <section id="experience" class="container">
+        <h2>My Experience</h2>
+        <div class="section">
+            <p><strong>Coding Experience:</strong> I have extensive experience in web development, utilizing languages and frameworks such as HTML, CSS, JavaScript, React, and Node.js. My journey began with creating static websites and has evolved into building dynamic applications that enhance user interaction and engagement.</p>
+        </div>
+        <div class="section">
+            <p><strong>3D Modeling Experience:</strong> Alongside my coding skills, I possess a strong background in 3D modeling using tools like Blender and Unity. This experience enables me to create immersive environments and character designs, enriching the overall user experience in interactive applications and games.</p>
+        </div>
+    </section>
+
+    <section id="projects" class="container">
+        <h2>My Projects</h2>
+        <div class="section">
+            <p><strong>Project 1:</strong> Developed a web application for tracking personal expenses, featuring user authentication, data visualization, and responsive design built with React and Node.js.</p>
+        </div>
+        <div class="section">
+            <p><strong>Project 2:</strong> Created a 3D interactive game in Unity, where players navigate through a virtual world and solve puzzles to advance, showcasing my modeling and game development skills.</p>
+        </div>
+        <div class="section">
+            <p><strong>Project 3:</strong> Collaborated on a team project to build an e-commerce platform, integrating payment gateways and ensuring optimal user experience across devices.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="container">
+        <h2>Skills</h2>
+        <ul>
+            <li>Web Development: HTML, CSS, JavaScript, React, Node.js</li>
+            <li>3D Modeling: Blender, Unity</li>
+            <li>Version Control: Git, GitHub</li>
+            <li>Database Management: MongoDB, SQL</li>
+            <li>UI/UX Design: Figma, Adobe XD</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Noobboyhicool | <a href="#">LinkedIn</a> | <a href="#">GitHub</a></p>
+    </footer>
+</body>
+</html>
